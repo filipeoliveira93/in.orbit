@@ -1,0 +1,1 @@
+ALTER TABLE "goal_completions" ALTER COLUMN "goal_id" SET DATA TYPE text;

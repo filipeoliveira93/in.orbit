@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS "goals" (
-	"id" serial PRIMARY KEY NOT NULL,
+	"id" text PRIMARY KEY NOT NULL,
 	"title" text NOT NULL,
 	"desired_weekly_frequency" integer NOT NULL,
 	"description" text,
