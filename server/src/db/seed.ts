@@ -41,10 +41,6 @@ async function seed() {
       goalId: result[1].id,
       createdAt: startOfWeek.add(1, 'day').toDate(),
     },
-    {
-      goalId: result[2].id,
-      createdAt: startOfWeek.add(2, 'day').toDate(),
-    },
   ])
 }
 
